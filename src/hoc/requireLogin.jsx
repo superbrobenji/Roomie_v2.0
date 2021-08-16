@@ -4,6 +4,7 @@ import { useHistory } from 'react-router-dom';
 
 import { authPropTypes } from '../helpers/propTypesFactory';
 
+// TODO rebuild to grab user from redux and only if user exists to you allow access to child
 export default (ChildComponent) => {
 	const ComposedComponent = (props) => {
 		const { auth } = props;

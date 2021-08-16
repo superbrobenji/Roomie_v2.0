@@ -34,6 +34,9 @@
         "consistent-return": [
             "off"
         ],
-        "no-shadow": ["error", { "hoist": "all" }]
+        "no-shadow": ["error", { "hoist": "all" }],
+        "jsx-a11y/label-has-associated-control": [ 
+            "off"
+        ]
     }
 }
